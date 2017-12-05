@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Labration5BokRegister.jnlp">
+  <information>
+    <title>Labration5BokRegister</title>
+    <vendor>Ahmed Heidari 2</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Labration5BokRegister.jar" size="32028" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.45-bin.jar" size="999810" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Labration5BokRegister" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="View.GUIMenu"  name="Labration5BokRegister" />
+  <update check="always"/>
+</jnlp>
